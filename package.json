@@ -1,5 +1,9 @@
 {
   "name": "library-react",
+  "engines" : {
+    "node" : "16.14.0",
+    "npm" : "8.5.0"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
