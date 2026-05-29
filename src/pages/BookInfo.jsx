@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useParams } from "react-router-dom";
 import Rating from "../components/ui/Rating";
@@ -12,6 +12,7 @@ const BookInfo = ({ books, addToCart, cart}) => {
  const book = books.find(book => +book.id === +id);
 
 
+ 
  function addBookToCart(book) {
   addToCart(book)
  }
